@@ -13,3 +13,13 @@ A look at Maximilian Schwarzmüller's GitHub Actions Course
   - [52. Solution](https://github.com/ricdev/github-actions/compare/section-3_52-solution?expand=1)
 
 </details>
+
+
+## Resources
+
+<details open>
+  <summary>Click to Contract/Expend</summary>
+  
+  - [Extended Markdown Syntax](https://www.markdownguide.org/extended-syntax/)
+
+</details>
