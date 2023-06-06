@@ -7,8 +7,9 @@ A look at Maximilian Schwarzmüller's GitHub Actions Course
 <details open>
   <summary>Click to Contract/Expend</summary>
   
-  ###
+  ### Section 3 
   
-  - [Section 3 - 37 first workflow](https://github.com/ricdev/github-actions/tree/section-3_37-first_workflow)
+  - [37. First workflow](https://github.com/ricdev/github-actions/tree/section-3_37-first_workflow)
+  - [52. Solution](https://github.com/ricdev/github-actions/compare/section-3_52-solution?expand=1)
 
 </details>
