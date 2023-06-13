@@ -24,3 +24,5 @@ A look at Maximilian Schwarzmüller's GitHub Actions Course
   - [Google Sheet](https://docs.google.com/presentation/d/1F5x3j-kKIzv32iyZhx8Bt6OxN4MOjzg3RpTufu-ZXmQ/edit#slide=id.p)
 
 </details>
+
+## Releases
