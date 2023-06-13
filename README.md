@@ -5,7 +5,7 @@ A look at Maximilian Schwarzmüller's GitHub Actions Course
 ## Section's Exercise Solutions
 
 <details open>
-  <summary>Click to Contract/Expend</summary>
+  <summary>Click to Contract/Expand</summary>
   
   ### Section 3 
   
@@ -18,7 +18,7 @@ A look at Maximilian Schwarzmüller's GitHub Actions Course
 ## Resources
 
 <details open>
-  <summary>Click to Contract/Expend</summary>
+  <summary>Click to Contract/Expand</summary>
   
   - [Extended Markdown Syntax](https://www.markdownguide.org/extended-syntax/)
   - [Google Sheet](https://docs.google.com/presentation/d/1F5x3j-kKIzv32iyZhx8Bt6OxN4MOjzg3RpTufu-ZXmQ/edit#slide=id.p)
@@ -28,7 +28,7 @@ A look at Maximilian Schwarzmüller's GitHub Actions Course
 ## Releases
 
 <details open>
-  <summary>Click to Contract/Expend</summary>
+  <summary>Click to Contract/Expand</summary>
   
   - [2023.06.13.01](https://github.com/ricdev/github-actions/releases/tag/2023.06.13.01)
   - [2023.06.13.02](https://github.com/ricdev/github-actions/releases/tag/2023.06.13.02)
