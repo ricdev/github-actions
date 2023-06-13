@@ -31,5 +31,6 @@ A look at Maximilian Schwarzmüller's GitHub Actions Course
   <summary>Click to Contract/Expend</summary>
   
   - [2023.06.13.01](https://github.com/ricdev/github-actions/releases/tag/2023.06.13.01)
+  - [2023.06.13.02](https://github.com/ricdev/github-actions/releases/tag/2023.06.13.02)
 
 </details>
