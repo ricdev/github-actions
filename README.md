@@ -33,6 +33,7 @@ A look at Maximilian Schwarzmüller's GitHub Actions Course
   - [2023.06.13.01](https://github.com/ricdev/github-actions/releases/tag/2023.06.13.01)
   - [2023.06.13.02](https://github.com/ricdev/github-actions/releases/tag/2023.06.13.02)
   - [2023.06.13.03](https://github.com/ricdev/github-actions/releases/tag/2023.06.13.03)
-  - [2023.06.13.04 Link to commit](https://github.com/ricdev/github-actions/releases/tag/2023.06.13.04)
+  - [2023.06.13.04](https://github.com/ricdev/github-actions/releases/tag/2023.06.13.04)
+  - [2023.06.13.04 Link to commit](https://github.com/ricdev/github-actions/releases/tag/2023.06.13.05)
 
 </details>
