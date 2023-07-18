@@ -1,10 +1,47 @@
-name: First Workflow
-on: workflow_dispatch
+name: Lint, build, and deploy to Chromatic
+
+on:
+  pull_request:
+    branches:
+      - develop
+      - stage
+      - master
+
 jobs:
-  first-job:
+  lint-build-chromatic:
     runs-on: ubuntu-latest
     steps:
-      - name: Print greeting
-        run: echo "Hello world"
-      - name: Print goodbye
-        run: echo "Done! Goodbye"
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Use NVM node version
+        uses: actions/setup-node@v3
+        with:
+          node-version-file: "./front-end/.nvmrc"
+
+      - name: Install dependencies
+        working-directory: ./front-end
+        run: npm install
+
+      - name: Run eslint
+        working-directory: ./front-end
+        run: npm run lint
+
+      - name: Run prettier
+        working-directory: ./front-end
+        run: npm run format:check
+
+      - name: Run build
+        working-directory: ./front-end
+        run: npm run build
+        env:
+          CI: false
+
+      # - name: Publish to Chromatic
+      #   if: ${{ github.base_ref == 'develop' }}
+      #   uses: chromaui/action@v1
+      #   # Chromatic GitHub Action options
+      #   with:
+      #     projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
+      #     workingDir: ./front-end
