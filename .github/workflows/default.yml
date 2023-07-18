@@ -1,11 +1,12 @@
 name: Lint, build, and deploy to Chromatic
 
-on:
-  pull_request:
-    branches:
-      - develop
-      - stage
-      - master
+on: workflow_dispatch
+# on:
+#   pull_request:
+#     branches:
+#       - develop
+#       - stage
+#       - master
 
 jobs:
   lint-build-chromatic:
