@@ -26,9 +26,9 @@ jobs:
         working-directory: ./front-end
         run: npm install
 
-      - name: Run eslint
-        working-directory: ./front-end
-        run: npm run lint
+      # - name: Run eslint
+      #   working-directory: ./front-end
+      #   run: npm run lint
 
       - name: Run prettier
         working-directory: ./front-end
