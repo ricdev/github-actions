@@ -1,6 +1,6 @@
 name: Lint, build, and deploy to Chromatic
 
-on: workflow_dispatch
+# on: workflow_dispatch
 on:
   pull_request:
     branches:
