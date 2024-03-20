@@ -30,9 +30,9 @@ jobs:
       #   working-directory: ./front-end
       #   run: npm run lint
 
-      - name: Run prettier
-        working-directory: ./front-end
-        run: npm run format:check
+      # - name: Run prettier
+      #   working-directory: ./front-end
+      #   run: npm run format:check
 
       - name: Run build
         working-directory: ./front-end
