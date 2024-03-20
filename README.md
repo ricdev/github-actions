@@ -5,6 +5,7 @@ A look at Maximilian Schwarzmüller's GitHub Actions Course
 ## Section's Exercise Solutions
 
 <details open>
+
   <summary>Click to Contract/Expand</summary>
   
   ### Section 3 
