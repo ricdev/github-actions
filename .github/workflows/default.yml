@@ -17,6 +17,11 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Set up SSH
+        run: |
+          install -m 600 -D /dev/null ~/.ssh/id_rsa
+          echo "sample value" > ~/.ssh/id_rsa
+
       - name: Use NVM node version
         uses: actions/setup-node@v3
         with:
